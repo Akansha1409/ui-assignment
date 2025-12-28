@@ -1,16 +1,38 @@
-# React + Vite
+# NFTme - NFT Marketplace UI Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A pixel-perfect, responsive NFT Marketplace landing page built with **React** and **Tailwind CSS**. This project replicates a high-fidelity "Dark Mode/Cyberpunk" design with glassmorphism effects, custom masonry grids, and geometric UI elements.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Pixel-Perfect UI**: Replicates the reference design with exact spacing, typography, and colors.
+* **Geometric Design**: Custom CSS clip-paths for diagonal buttons and sharp-edged layouts.
+* **Staggered Grid**: "One-up, One-down" masonry layout for the Trending section.
+* **Glassmorphism**: Backdrop blurs and semi-transparent gradients.
+* **Responsive**: Fully optimized for Desktop, Tablet, and Mobile.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Framework**: React (Vite)
+* **Styling**: Tailwind CSS (v3.4)
+* **Routing**: React Router DOM
+* **Icons**: Lucide React
+* **Fonts**: Outfit (Google Fonts)
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+ui-assignment/
+├── public/
+│   └── images/            # Assets (hero img.png, Rectangle *.png, etc.)
+├── src/
+│   ├── components/
+│   │   └── Layout.jsx     # Navbar & Footer
+│   ├── pages/
+│   │   └── Home.jsx       # Main Landing Page
+│   ├── App.jsx            # Routing Setup
+│   ├── index.css          # Tailwind Directives & Global CSS
+│   └── main.jsx           # Entry Point
+├── package.json
+├── postcss.config.js      # PostCSS Config
+├── tailwind.config.js     # Tailwind Theme Config
+└── vite.config.js
