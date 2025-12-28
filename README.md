@@ -2,6 +2,10 @@
 
 A pixel-perfect, responsive NFT Marketplace landing page built with **React** and **Tailwind CSS**. This project replicates a high-fidelity "Dark Mode/Cyberpunk" design with glassmorphism effects, custom masonry grids, and geometric UI elements.
 
+
+---
+
+
 ## 🚀 Features
 
 * **Pixel-Perfect UI**: Replicates the reference design with exact spacing, typography, and colors.
@@ -10,6 +14,10 @@ A pixel-perfect, responsive NFT Marketplace landing page built with **React** an
 * **Glassmorphism**: Backdrop blurs and semi-transparent gradients.
 * **Responsive**: Fully optimized for Desktop, Tablet, and Mobile.
 
+
+---
+
+
 ## 🛠️ Tech Stack
 
 * **Framework**: React (Vite)
@@ -17,6 +25,9 @@ A pixel-perfect, responsive NFT Marketplace landing page built with **React** an
 * **Routing**: React Router DOM
 * **Icons**: Lucide React
 * **Fonts**: Outfit (Google Fonts)
+
+  ---
+  
 
 ## 📂 Project Structure
 
@@ -36,3 +47,27 @@ ui-assignment/
 ├── postcss.config.js      # PostCSS Config
 ├── tailwind.config.js     # Tailwind Theme Config
 └── vite.config.js
+```
+
+---
+
+
+## 💻 Installation & Setup Code
+
+Follow these steps to run the project locally. Open your terminal in the project folder and run these commands in order.
+
+### Step 1: Install Dependencies
+Install the core packages and the specific libraries required for routing and icons.
+
+```bash
+npm install
+npm install react-router-dom lucide-react
+```
+
+### Step 2: Run the Development Server
+Start the local server.
+
+```bash
+npm run dev
+```
+---
